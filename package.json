@@ -1,0 +1,15 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "playwright with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --exit"
+  },
+  "author": "Arun Harihar",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.4.0",
+    "playwright": "^1.23.1"
+  }
+}
